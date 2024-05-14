@@ -18,11 +18,31 @@ footer {
     background: #444;
     color: white;
 }
+a {
+    color: black;
+}
 a.foo:hover {
   text-decoration-color: black;
   color: black;
 }
 a.foo {
-  text-decoration-color: white;
-  color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+    color: white;
+}
+tr {
+    background-color: lightgrey;
+    color: black;
+}
+body {
+    background: linear-gradient(to right, pink, transparent, pink)
+}
+h2:start {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100% );
+
+    -webkit-text-fill-color: transparent;
 }
